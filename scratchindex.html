@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Author & Uplifting Quotes</title>
+    <link rel="stylesheet" href="thestyles.css">
+    <link rel="stylesheet" href="css/thestyles.css">
+
+
+</head>
+<body>
+
+<header>
+    <h1 id="top" >About the Author</h1>
+    <h2>Jacob Aland</h2>
+    <p>Email: alandjacob04@gmail.com</p>
+    <p>Phone: (208) 995-8987</p>
+</header>
+
+<section>
+    <h1>Resume</h1>
+    <h2>Education</h2>
+    <p>Brigham Young University, Provo, UT</p>
+    <p>Pre-Business Major, GPA: 3.76 / 4.00</p>
+    <p>ACT: 30/36 (90th Percentile)</p>
+    <h3>Academic Awards</h3>
+    <ol>
+        <li>Dean's List for the BYU College of Family, Home, and Social Sciences (Spring 2024)</li>
+        <li>Graduated from Rocky Mountain High School with high honors (2021)</li>
+        <li>Advanced Placement Scholarly Excellence Award (2021)</li>
+    </ol>
+</section>
+
+<section>
+    <h1>Experience</h1>
+    <h2>Brigham Young University - Resident Assistant</h2>
+    <ol>
+        <li>Developed relationships with and helped incoming freshmen adjust to college.</li>
+        <li>Learned how to maintain a successful work-life balance.</li>
+        <li>Worked well in a team and coordinated responsibilities effectively.</li>
+    </ol>
+    <h2>Vantage Homes - Superintendent Assistant</h2>
+    <ol>
+        <li>Cleaned and detailed homes during the construction process.</li>
+        <li>Oversaw job site projects and helped with installations.</li>
+        <li>Worked with customers and contractors to ensure satisfaction and timely completion.</li>
+    </ol>
+</section>
+
+<section>
+    <h1>Volunteer Service</h1>
+    <h2>Provo City School District - Assistant English Teacher</h2>
+    <ol>
+        <li>Assisted students in improving English proficiency and solving problems.</li>
+        <li>Developed an appreciation for different cultures.</li>
+    </ol>
+</section>
+
+<section>
+    <h1>Skills</h1>
+    <ol>
+        <li>Proficient in Excel and programming languages such as SQL, VBA, and more.</li>
+        <li>Knowledgeable in basic accounting principles, including Balance Sheets and Income Statements.</li>
+        <li>Pursuing a Spanish minor at Brigham Young University; enjoy learning about other cultures.</li>
+        <li>Capable of creating interactive web applications like this one!</li>
+    </ol>
+</section>
+
+<section class="quote-generator">
+    <h1>Uplifting Quote Generator</h1>
+    <div class="quote" id="quote">Press the button to get inspired!</div>
+    <button onclick="generateQuote()">Generate Quote</button>
+</section>
+
+<script>
+    const quotes = [
+        "You are capable of amazing things.",
+        "Every day is a second chance to shine.",
+        "Believe in yourself and all that you are.",
+        "You are stronger than you know.",
+        "Happiness is a journey, not a destination.",
+        "Your potential is limitless.",
+        "Dream big, work hard, and stay humble.",
+        "Be the reason someone smiles today.",
+        "You have the power to create change.",
+        "Kindness costs nothing but means everything."
+    ];
+
+    function generateQuote() {
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        document.getElementById("quote").innerText = quotes[randomIndex];
+    }
+</script>
+<a href="#top">Click here to go back to the top</a>|
+<a href="index.html">Professinal Webstie</a>
+<section>
+    <h1>Watch This Amazing Video!</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M2tgKZLRq3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</section>
+<div class='tableauPlaceholder' id='viz1733955897405' style='position: relative'><noscript><a href='#'><img alt='World Literacy Rates Overview ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;LiteracyRates_17243394670400&#47;WorldLiteracyRatesOverview&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='LiteracyRates_17243394670400&#47;WorldLiteracyRatesOverview' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;LiteracyRates_17243394670400&#47;WorldLiteracyRatesOverview&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1733955897405');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1300px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1300px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='2827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</body>
+</html>
